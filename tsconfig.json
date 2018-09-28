@@ -16,9 +16,9 @@
     "lib": [
       "es2017",
       "dom"
-    ],
-    "exclude": [
-      "codegen"
     ]
-  }
+  },
+  "exclude": [
+    "codegen"
+  ]
 }
