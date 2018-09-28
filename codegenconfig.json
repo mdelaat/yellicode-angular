@@ -1,0 +1,24 @@
+{
+  "templates": [
+    {
+      "templateFile": "./codegen/components.template.ts",
+      "modelFile": "./codegen/app-model.json",
+      "templateArgs": {
+        "generateStyleSheets": true
+      }
+    },
+    {
+      "templateFile": "./codegen/services.template.ts",
+      "modelFile": "./codegen/app-model.json"
+    },
+    {
+      "templateFile": "./codegen/side-nav.template.ts",
+      "modelFile": "./codegen/app-model.json"
+    },
+    {
+      "templateFile": "./codegen/component-registration.template.ts",
+      "modelFile": "./codegen/app-model.json"
+    }
+  ],
+  "compileTypeScript": true
+}

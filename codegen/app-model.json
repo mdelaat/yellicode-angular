@@ -1,0 +1,43 @@
+{
+  "services": [
+    {
+      "name": "User"
+    }
+  ],
+  "components": [
+    {
+      "name": "Home",
+      "title": "Home page",
+      "createRoute": true,
+      "routeUrl": "",
+      "showInSideNav": true
+    },
+    {
+      "name": "Account",
+      "title": "Your account",
+      "createRoute": true,
+      "showInSideNav": true,
+      "useServices": [
+        "User"
+      ]
+    },
+    {
+      "name": "About",
+      "title": "About us",
+      "createRoute": true,
+      "showInSideNav": true
+    },
+    {
+      "name": "Contact",
+      "title": "Contact us",
+      "createRoute": true,
+      "showInSideNav": true
+    },
+    {
+      "name": "Register",
+      "title": "Register for free!",
+      "createRoute": true,
+      "showInSideNav": true
+    }
+  ]
+}
