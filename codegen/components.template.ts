@@ -29,7 +29,7 @@ Generator.getModel<AppModel>().then((model: AppModel) => {
       writeComponentClass(typeScript, component, fileBaseName, componentDir, generateStyleSheets);
     });
 
-    // 3. Generate the HTML template
+    // 2. Generate the HTML template
     Generator.generate({ outputFile: `${path.join(componentDir, fileBaseName)}.html` }, (output) => {
       output.writeLine(`<!-- HTML template for the '${component.name}' component. -->`);
       // If a title is configured, write it.
