@@ -1,6 +1,6 @@
 {
   "name": "yellicode-angular",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -26,16 +26,15 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.7.0",
-    "@angular/cli": "~6.2.3",
     "@angular/compiler-cli": "^6.1.0",
     "@angular/language-service": "^6.1.0",
     "@types/jasmine": "~2.8.6",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
-    "@yellicode/angular": "^0.1.0",
-    "@yellicode/html": "^0.1.2",
-    "@yellicode/templating": "^0.3.2",
-    "@yellicode/typescript": "^0.1.8",
+    "@yellicode/templating": "^1.0.0",
+    "@yellicode/angular": "^1.0.0",
+    "@yellicode/html": "^1.0.0",
+    "@yellicode/typescript": "^1.0.0",
     "codelyzer": "~4.2.1",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
