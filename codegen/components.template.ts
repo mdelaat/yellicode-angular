@@ -6,7 +6,8 @@
  * imported from "component-class.template".
  */
 import * as path from 'path';
-import { Generator, NameUtility } from '@yellicode/templating';
+import { NameUtility } from '@yellicode/core';
+import { Generator } from '@yellicode/templating';
 import { TypeScriptWriter } from '@yellicode/typescript';
 import { writeComponentClass } from './component-class.template';
 import { AppModel } from './app-model';

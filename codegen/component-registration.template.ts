@@ -4,7 +4,8 @@
  * imported in the standard Angular "app.module.ts" file.
  */
 import * as path from 'path';
-import { Generator, TextWriter, NameUtility } from '@yellicode/templating';
+import { NameUtility } from '@yellicode/core';
+import { Generator, TextWriter } from '@yellicode/templating';
 import { TypeScriptWriter } from '@yellicode/typescript';
 import { AngularWriter } from '@yellicode/angular';
 import { AppModel } from './app-model';

@@ -3,9 +3,9 @@
  *
  * Modify this template to suite your own component needs.
  */
+import { NameUtility } from '@yellicode/core';
 import { TypeScriptWriter } from '@yellicode/typescript';
 import { ComponentModel } from './app-model';
-import { NameUtility } from '@yellicode/templating';
 import { AngularWriter, ComponentConfig } from '@yellicode/angular';
 import * as appPaths from './app-paths';
 import * as path from 'path';

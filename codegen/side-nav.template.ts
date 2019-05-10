@@ -8,7 +8,8 @@
  *
  */
 import * as path from 'path';
-import { Generator, NameUtility } from '@yellicode/templating';
+import { NameUtility } from '@yellicode/core';
+import { Generator } from '@yellicode/templating';
 import { AppModel } from './app-model';
 import { TypeScriptWriter } from '@yellicode/typescript';
 import { AngularWriter, ComponentConfig } from '@yellicode/angular';
