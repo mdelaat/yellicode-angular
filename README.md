@@ -13,12 +13,11 @@ License: MIT
 
 ## Generating code
 
-Run `yellicode` after making changes to the file `codegen\app-model.json` or after making changes to any of the templates in the `codegen` directory. This will update all relevate source files.
+Run `yellicode` after making changes to the file `codegen\app-model.json` or after making changes to any of the templates in the `codegen` directory. This will update all relevant source files.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
+Run `ng serve -o` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Further help
 
