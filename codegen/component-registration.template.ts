@@ -5,7 +5,8 @@
  */
 import * as path from 'path';
 import { NameUtility } from '@yellicode/core';
-import { Generator, TextWriter } from '@yellicode/templating';
+import { Generator } from '@yellicode/templating';
+import { TextWriter } from '@yellicode/core';
 import { TypeScriptWriter } from '@yellicode/typescript';
 import { AngularWriter } from '@yellicode/angular';
 import { AppModel } from './app-model';
